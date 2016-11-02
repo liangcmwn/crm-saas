@@ -1,0 +1,10 @@
+server:  
+    port : 8082
+    address : localhost  
+spring: 
+    datasource:
+        schema : classpath:import.sql
+logging:
+    level:
+        root : WARN
+        lyx.crm : TRACE
